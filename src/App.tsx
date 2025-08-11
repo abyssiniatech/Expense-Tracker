@@ -26,8 +26,8 @@ export default function App() {
         <Route path="/about" element={<About />} />
       </Routes>
       <footer className="bg-light text-center py-3 mt-5 border-top">
-        <p className="mb-0 small text-muted">
-          © {new Date().getFullYear()}| surafel  Expense Tracker. Built with  using React, TypeScript, Tailwind, Bootstrap, and Sass.
+        <p className="mb-0 small text-muted text-center">
+          © {new Date().getFullYear()}| Surafel Mengist
         </p>
       </footer>
     </BrowserRouter>
