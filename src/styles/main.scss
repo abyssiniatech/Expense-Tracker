@@ -1,0 +1,27 @@
+@import './variables';
+@import './mixins';
+
+.btn-custom {
+  background-color: $primary-color;
+  border: none;
+  border-radius: $radius-lg;
+  @include card-shadow();
+  padding: .5rem 1rem;
+  color: white;
+  &:hover {
+    opacity: 0.95;
+    filter: saturate(1.05);
+  }
+}
+
+.card-custom {
+  border-radius: $radius-lg;
+  padding: 1rem;
+  @include card-shadow();
+}
+
+.header-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+}
