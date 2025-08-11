@@ -7,7 +7,7 @@
   border-radius: $radius-lg;
   @include card-shadow();
   padding: .5rem 1rem;
-  color: white;
+  color: rgb(241, 236, 236);
   &:hover {
     opacity: 0.95;
     filter: saturate(1.05);
