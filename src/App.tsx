@@ -8,7 +8,7 @@ import logo from "./assets/profile.jpg"
 function Navbar() {
   const navigate = useNavigate();
 
-  const handleNavClick = (path) => {
+  const handleNavClick = (path:string) => {
     navigate(path);
     const bsCollapse = document.getElementById('navbarNav');
     if (bsCollapse && bsCollapse.classList.contains('show')) {
